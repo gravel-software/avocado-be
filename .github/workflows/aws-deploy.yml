@@ -25,4 +25,4 @@ jobs:
       - name: Bootstrap stack
         run: npm run bootstrap
       - name: Deploy stack
-        run: cdk deploy --require-approval never
+        run: npm run deploy
